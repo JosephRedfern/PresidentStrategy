@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "president-strategy"
+version = "0.1.0"
+description = ""
+authors = ["Joseph Redfern <joseph@redfern.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.66.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
